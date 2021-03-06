@@ -1,0 +1,32 @@
+Payment Geteway
+
+1.Stripe
+  STRIPE_KEY=pk_test_51IRthcH0q7D7aul8t8YRcWQoZJYzxNu7WP3EffRd3XfyR16DRJusNTSBLyKLj4RDkHrRGkjUyAmCYHnO7luhZ1TK00phHTYjYm
+  STRIPE_SECRET=sk_test_51IRthcH0q7D7aul8kLynteflwDLupEnvOTyunIk1DvVFBSQ57Oa4uuytDxcpKAHsSvAhQlEjkRQ49sskviVap0MI00fnmaJJHl
+
+2.Paypal
+
+
+
+3.SSL-Commerce
+  STORE_ID=sss5f91207e703ea
+  STORE_PASSWORD=sss5f91207e703ea@ssl
+
+
+Login/Register with social media
+
+1.Gmail
+  'google' => [
+        'client_id' => '1081339209331-uenhp3jolnii4ipmbpvnhgmgvmpeokqq.apps.googleusercontent.com',
+        'client_secret' => '5s9aQtauCFN5um1Mb7g0gx99',
+        'redirect' => 'https://onlinelifecsa.com/callback/google',
+    ]
+
+2.Facebook
+
+    'facebook' => [
+        'client_id' => '438689710663434',
+        'client_secret' => '0a8edb7d32efa0def775579e71fd799b',
+        'redirect' => 'https://onlinelifecsa.com/login/facebook/callback',
+    ]
+
